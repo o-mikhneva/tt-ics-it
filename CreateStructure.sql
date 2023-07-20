@@ -10,8 +10,6 @@ create table dbo.SKU
 	,constraint UNQ_SKU_Code unique(Code)  
 );
 
---2.2 dbo.Family (ID identity, SurName, BudgetValue)
-
 if object_id('dbo.Family', 'U') is not null
 	drop table dbo.Family;
 
